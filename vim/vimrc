@@ -39,12 +39,14 @@ let g:mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Show cursor line
 set cursorline
+
+" Strange nums
+set relativenumber
 
 " Line Length
 set textwidth=79                                                        
